@@ -11,7 +11,7 @@ The beauty of add_to_list is that you can run multiple decorated functions on th
 **Warning:** Using the same key multiple times will destroy the previous values associated with the same key and replace them with new ones. It's best to use the same key with the same range of inputs to avoid bad data.
 #### Input:
 ```py
-from multi-input-tool import add_to_list
+from multi_input import add_to_list
 
 results = []
 
