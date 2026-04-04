@@ -3,9 +3,9 @@ def json_form(target: list[dict]):
     dicts = []
     for dic in target:
         dict_text = ""
-        dict_text += "\n\t{"
-        dict_text += ",".join([f'\n\t\t"{key}": {dic[key]}' for key in dic])
-        dict_text += "\n\t}"
+        dict_text += "\n  {"
+        dict_text += ",".join([f'\n    "{key}": {dic[key]}' for key in dic])
+        dict_text += "\n  }"
         dicts.append(dict_text)
     return out.replace("REPLACE", ",".join(dicts))
 
