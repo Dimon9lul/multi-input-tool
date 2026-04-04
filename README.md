@@ -40,7 +40,7 @@ from multi_input import json_form
 
 print(json_form(results))
 ```
-<sub>results is the same list as in [previous output](https://github.com/Dimon9lul/multi-input-tool/edit/main/README.md#output)</sub>
+<sub>results is the same list as in previous output</sub>
 #### Output:
 ```json
 [
