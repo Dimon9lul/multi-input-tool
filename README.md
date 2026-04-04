@@ -36,31 +36,34 @@ print(results)
 The lists modified by functions decorated with **add_to_list** can be formatted as strings with JSON-format. Give json_form the modified list and it will give you the JSON-formatted string.
 #### Input:
 ```py
+from multi_input import json_form
+
 print(json_form(results))
 ```
+<sub>results is the same list as in [previous output](https://github.com/Dimon9lul/multi-input-tool/edit/main/README.md#output)</sub>
 #### Output:
 ```json
 [
-	{
-		"x": 0,
-		"y": 0,
-		"z": 0
-	},
-	{
-		"x": 1,
-		"y": 2,
-		"z": 1
-	},
-	{
-		"x": 2,
-		"y": 4,
-		"z": 4
-	},
-	{
-		"x": 3,
-		"y": 6,
-		"z": 9
-	}
+  {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  {
+    "x": 1,
+    "y": 2,
+    "z": 1
+  },
+  {
+    "x": 2,
+    "y": 4,
+    "z": 4
+  },
+  {
+    "x": 3,
+    "y": 6,
+    "z": 9
+  }
 ]
 ```
 <br>
